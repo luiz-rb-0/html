@@ -1,0 +1,85 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Menu */
+.menu {
+  background-color: #c99c9e;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  height: 130px;
+  align-items: center;
+  font-size: 60px;
+  position: absolute;
+  width: 100%;
+}
+.menu div a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* Container principal */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e9e9e9;
+  padding: 220px 35px 0;
+  margin: 0%;
+  margin-top: 15px;
+
+  
+}
+.texto{
+  font-size: 30px;
+
+  height: 400px;
+  margin: 50px;
+  margin-top: 15px;
+  text-decoration: none;
+  
+}
+.btn {
+  display: inline-block;
+  background-color: #851b1b;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: darkred;
+}
+
+/* Imagem */
+.imagem div img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+/* Rodapé */
+.rodape {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  height: 230px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+.rodape div p {
+  margin: 0;
+}
