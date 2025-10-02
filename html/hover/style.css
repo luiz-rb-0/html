@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+
+}
+
+.galeria img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  opacity: 0.6; /* deixa transparente */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.galeria img:hover {
+  opacity: 1; /* volta visibilidade total */
+  transform: scale(1.1); /* aumenta o tamanho */
+}
