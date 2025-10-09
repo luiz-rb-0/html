@@ -1,0 +1,60 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-area: auto;
+
+height: 450px;
+width: 450px;
+}
+#c1 {
+background-image: url('Iselda_Circle.webp')
+}
+
+#c2 {
+background-image: url('Jiji_Circle.webp')
+
+}
+
+#c3 {
+background-image: url('Jinn_Circle.webp')
+}
+
+#c4 {
+background-image: url('Millibelle_Circle.webp')
+}
+
+#c5{
+    background-image: url('Nailsmith_Circle.webp')
+}
+#c6 {
+background-image: url('Salubra_Circle.webp')
+    
+}
+#c7 {
+background-image: url('Sly_Circle.webp')
+    
+}
+#c8 {
+background-image: url('Stag_Circle.webp')
+    
+}
+#c9 {
+background-image: url('Tuk_Circle.webp')
+}
+
+
+#c1,
+#c2,
+#c3,
+#c4,
+#c5,
+#c6,
+#c7,
+#c8,
+#c9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
