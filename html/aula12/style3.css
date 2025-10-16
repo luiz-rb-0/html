@@ -1,0 +1,138 @@
+body {
+    text-align: center;
+}
+
+*{
+    transition-timing-function: linear;
+}
+.atv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+}
+/* ex 1 */
+.colorido{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 30, 97);
+    transition: 4s; 
+    border-radius: 16px;
+}
+.colorido:hover{
+    background-color: rgb(113, 247, 113);
+    transition: 4s; 
+}
+
+/* ex 2 */
+
+.crescer{
+    border-radius: 16px;
+    background-color: rgb(0, 103, 121);
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+}
+.crescer:hover{
+    width: 200px;
+    height: 200px;
+}
+
+/* ex 3 */
+.atraso{
+    border-radius: 16px;
+    background-color: rgb(139, 170, 0);
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+    transition-delay: 0.5s;
+
+}
+.atraso:hover{
+    background-color: rgb(170, 139, 0);
+    color: rgb(243, 200, 120);
+    border-color: rgb(255, 138, 71);
+    transition: 2s;
+    transition-delay: 1s;
+}
+
+/* ex 4 */
+.cartao{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 16px;
+    box-shadow: 4px 4px 8px rgb(170, 150, 134);
+    transition: 1s;
+    align-items: center;
+}
+.cartao:hover{
+    background-color: rgb(224, 255, 225);
+    box-shadow: 8px 8px 16px gray;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.cartao p{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*ex 5*/
+
+.texto p{
+    color: rgb(32, 201, 144);
+    font-size: 30px;
+    transition: 1s;
+}
+.texto:hover p{
+    color: darksalmon;
+    font-size: 45px;
+    transition: 1s;
+}
+#texto2{
+    transition-delay: 0.5s;
+}
+
+/*ex 6*/
+
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 16px;
+    transition: 1s;
+}
+
+img:hover{
+    width: 700px;
+    height: 700px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+/* ex 7 */
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+}
+.menu a{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: lightgray;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.menu a:hover{
+    text-decoration: underline;
+    background-color: gray;
+    color: white;
+    transition: 0.5s;
+}

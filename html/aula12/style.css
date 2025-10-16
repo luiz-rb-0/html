@@ -1,0 +1,29 @@
+button{
+display: block;
+margin: 20px 0;
+}
+
+.sombra{
+    box-shadow: 0px 0px 50px gray;
+}
+.linha{
+text-decoration: underline;
+text-decoration-color:blue;
+text-decoration-thickness: 3px;
+}
+
+.sem{
+    background-color: red;
+}
+.sem:hover{
+    background-color: blue;
+}
+
+
+
+
+img{
+width: 200px;
+transition: widht 3s ;
+
+}
