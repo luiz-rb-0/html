@@ -1,0 +1,68 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Poppins",
+sans-serif
+}
+
+body{
+background-color:#f0f0f0;
+color:#333
+}
+
+header{
+background-color:#0077b6;
+color:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:12px
+}
+
+.logo svg{
+width:48px;
+height:48px;
+border-radius:50%
+;transition:transform .3s
+}
+
+.logo h1{
+font-size:20px;
+font-weight:600
+}
+
+.logo:hover svg{
+transform:scale(1.08)
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+transition:color .3s,transform .3s}
+nav a:hover{color:#caf0f8;transform:scale(1.1)}
+main{text-align:center;padding:80px 20px;background:linear-gradient(to bottom,#caf0f8,#f0f0f0)}
+main h1{font-size:36px;color:#0077b6}
+main p{font-size:18px;margin:20px 0 40px}
+.btn{background-color:#0077b6;color:white;padding:12px 30px;border:none;border-radius:25px;font-size:16px;cursor:pointer;transition:background-color .3s,transform .3s}
+.btn:hover{background-color:#023e8a;transform:scale(1.1)}
+.img-container{margin-top:40px}
+.img-container img{width:60%;max-width:600px;border-radius:15px;transition:transform .4s ease}
+.img-container img:hover{transform:scale(1.05)}
+.cards{display:flex;justify-content:center;gap:40px;flex-wrap:wrap;padding:60px 20px;background-color:white}
+.card{background-color:#f8f9fa;width:280px;border-radius:15px;box-shadow:0 3px 8px rgba(0,0,0,.2);padding:25px;text-align:center;transition:transform .3s,box-shadow .3s,background-color .3s}
+.card h2{color:#0077b6;margin-bottom:10px;transition:color .3s}
+.card:hover{transform:scale(1.05);box-shadow:0 6px 16px rgba(0,0,0,.3);background-color:#e0f7ff}
+.card:hover h2{color:#023e8a}
+footer{background-color:#0077b6;color:white;display:flex;justify-content:space-between;align-items:center;padding:20px 60px}
+footer nav a{color:white;text-decoration:none;margin-left:20px;transition:color .3s,transform .3s}
+footer nav a:hover{color:#caf0f8;transform:scale(1.1)}
+@media(max-width:800px){header,footer{padding:16px 24px}main{padding:40px 16px}.img-container img{width:90%}.cards{gap:20px;padding:40px 16px;flex-direction:column;align-items:center}nav a{margin-left:12px}}
