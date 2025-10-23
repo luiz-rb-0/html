@@ -1,0 +1,153 @@
+.quadrado{
+width: 100px;
+height: 100px;
+background-color: orange;
+animation-name: movimento;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes movimento {
+    0% {
+         background-color: orange;
+        transform: translateX(0);
+       
+    }
+     50% {
+        background-color: greenyellow;
+        transform: translateX(200px);
+       
+    }
+     100% {
+        transform: translateX(400px);
+    }
+    
+}
+
+.quadrado2{
+width: 100px;
+height: 100px;
+background-color: red;
+animation-name: movimento2;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes movimento2 {
+    0% {
+        transform: translateX(0);
+        background-color: red;
+    }
+    33% {
+        transform: translateX(133px);
+        background-color: green;
+    }
+     67% {
+        transform: translateX(266px);
+        background-color: blue;
+    }
+    100% {
+        transform: translateX(400px);
+        background-color: red;
+    }
+}
+
+.botao-animado {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botao-animado{
+    animation: animarBotao 5s infinite alternate;
+}
+
+@keyframes animarBotao {
+    0% {
+        background-color: #007BFF;
+        color: white;
+        transform: scale(1);
+    }
+    50% {
+        background-color: #28a745;
+        color: yellow;
+        transform: scale(1.2);
+    }
+    100% {
+        background-color: #ff4500;
+        color: black;
+        transform: scale(1.1);
+    }
+}
+
+.texto-piscando {
+    font-size: 24px;
+    animation: piscar 2s infinite;
+}
+
+@keyframes piscar {
+    0% { color: red; }
+    33% { color: blue; }
+    66% { color: green; }
+    100% { color: red; }
+}
+
+.ceu {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid #333;
+    background: linear-gradient(to top, #004, #88d);
+    overflow: hidden;
+    position: relative;
+}
+
+.sol {
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle, yellow, orange);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -60px;
+    left: 120px;
+    animation: nascerSol 5s infinite alternate;
+}
+
+@keyframes nascerSol {
+    0% {
+        bottom: -60px;
+    }
+    100% {
+        bottom: 100px;
+    }
+}
+
+.coracao {
+    width: 100px;
+    animation: batendo 1s infinite;
+}
+
+@keyframes batendo {
+    0% { transform: scale(1); }
+    25% { transform: scale(1.1); }
+    50% { transform: scale(1); }
+    75% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.texto-flutuante {
+    font-size: 24px;
+    display: inline-block;
+    animation: flutuar 3s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
