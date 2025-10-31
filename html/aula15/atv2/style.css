@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin: 20px;
+  color: #333;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.ex1 button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn1 { background: blue; }
+.btn2 { background: green; }
+.btn3 { background: purple; }
+
+.btn1:hover { background: darkblue; }
+.btn2:hover { background: darkgreen; }
+.btn3:hover { background: rgb(83, 0, 83); }
+
+.btnA {
+  background: rgb(218, 38, 128);
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.1s;
+  cursor: pointer;
+}
+
+.btnA:active {
+  transform: scale(0.9);
+}
+
+.ex3 input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 200px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.ex3 input:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 8px rgba(0,123,255,0.5);
+  outline: none;
+}
+
+.card {
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #fafafa;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.card:hover {
+  transform: scale(1.05);
+  background: #f0f8ff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.galeria {
+  display: flex;
+  gap: 10px;
+}
+
+.galeria img {
+  width: 200px;
+  height: 200px;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.galeria img:hover {
+  filter: grayscale(100%);
+}
+
+.btnP {
+  background: darkgreen;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btnP:hover {
+  background: lightgreen;
+}
+
+.btnP:active {
+  background: darkgreen;
+  transform: scale(0.9);
+}
+
+.btnP:focus {
+  outline: 2px solid green;
+}
+
+.ex7 form {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+}
+
+.ex7 input, .ex7 button {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.ex7 input:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 8px rgba(0,123,255,0.4);
+
+}
+
+.ex7 button {
+  background: gray;
+  color: white;
+  cursor: pointer;
+}
+
+.ex7 button:hover {
+  background: steelblue;
+}
+
+.ex7 button:active {
+  transform: scale(0.9);
+}
