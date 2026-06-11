@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patas e Companhia - Pet Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="header-brand">
+                <img src="PET SHOP - PATAS E COMPANHIA.png" alt="Logo Patas e Companhia" class="site-logo">
+                <div>
+                    <h1>Patas e Companhia</h1>
+                    <p>O Pet Shop perfeito para pets com carinho, estilo e diversão.</p>
+                </div>
+            </div>
+            <nav>
+                <a href="#loja">Loja</a>
+                <a href="#carrossel">Galeria</a>
+                <a href="#faq">FAQ</a>
+                <a href="#cadastro">Cadastro</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+          <section id="carrossel" class="container section-box">
+            <div class="section-title">
+                <h3>Diversos Produtos para o seu Pet</h3>
+            </div>
+            <div class="carousel">
+                <button id="prevBtn" aria-label="Imagem anterior">&#10094;</button>
+                <div class="carousel-slide">
+                    <img id="carouselImage" src="IMG_BrinquedoGato.webp" alt="Imagem do produto 1">
+    
+                </div>
+                <button id="nextBtn" aria-label="Próxima imagem">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="hero container">
+            <div class="hero-text">
+                <span class="badge">Inauguração 01/08/2026</span>
+                <h2>Não Perca a Inauguração!</h2>
+                <p>Encontre ração, coleiras, brinquedos e tudo que seu pet merece. Venha celebrar nossa inauguração com ofertas especiais e muita alegria.</p>
+                <a class="button" href="#cadastro">Ativar lembrete</a>
+            </div>
+        </section>
+
+        <section id="loja" class="container section-box">
+            <div class="section-title">
+                <h3>Produtos em Estoque - Loja</h3>
+                <p>Conheça nossas opções para deixar seu animal ainda mais feliz.</p>
+            </div>
+            <div class="cards-grid">
+                <article class="card">
+                    <h4>Ração Premium</h4>
+                    <img id="RacaoGato" src="IMG_RaçãoGato.webp" alt="Ração para Gato">
+                    <h5>R$74,90</h5>
+                </article>
+                <article class="card">
+                    <h4>Coleiras</h4>
+                    <img id="ColeiraCachorro" src="IMG_ColeiraCachorro.jpg" alt="Coleira para Cachorro">
+                    <h5>R$25,90</h5>
+                </article>
+                <article class="card234">
+                    <h4 id="h4_Brinquedos">Brinquedos Divertidos</h4>
+                    <img id="BrinquedoCachorro" src="Brinquedo Cachorro.jpg" alt="Brinquedo para Cachorro">
+                    <h5>R$16,90</h5>
+                </article>
+                <article class="card highlight-card">
+                    <h4>Casinhas</h4>
+                    <img id="CasinhadeCachorro" src="Casinha de Cachorro.jpg" alt="Casinha para Cachorro">
+                    <h5>R$114,90</h5>
+                </article>
+            </div>
+        </section>
+
+        <section id="faq" class="container section-box">
+            <div class="section-title">
+                <h3>Perguntas e Respostas</h3>
+                <p>Tudo o que você precisa saber antes de visitar nossa loja.</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h4>Quando é a inauguração?</h4>
+                    <p>A inauguração acontece em 01/08/2026, com promoções e brindes especiais.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Quais serviços o Pet Shop oferece?</h4>
+                    <p>Vendemos ração, coleiras, brinquedos e temos atendimento especializado para pets.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Posso me cadastrar como cliente?</h4>
+                    <p>Sim! Preencha o formulário abaixo para receber novidades e ofertas exclusivas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="cadastro" class="container section-box form-section">
+            <div class="section-title">
+                <h3>Cadastro de Novos Clientes</h3>
+                <p>Nos informe seus dados para receber promoções e novidades do Pet Shop.</p>
+            </div>
+            <form id="signupForm" class="signup-form">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+                <label for="city">Cidade</label>
+                <input type="text" id="city" name="city" placeholder="Sua cidade" required>
+
+                <label for="phone">Celular</label>
+                <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000" required>
+
+                <label for="pets">Quantidade de animais na casa</label>
+                <input type="number" id="pets" name="pets" min="0" placeholder="Número de pets" required>
+
+                <button type="submit" class="button">Enviar Cadastro</button>
+                <div id="notification" class="notification" hidden></div>
+            </form>
+        </section>
+    </main>
+
+    <footer id="contato" class="site-footer">
+        <div class="container footer-content">
+            <div>
+                <h4>Endereço</h4>
+                <p>Rua General Furtado Nascimento, 66</p>
+                <p>Alto de Pinheiros, São Paulo - SP</p>
+                <p>05465-070</p>
+            </div>
+            <div>
+                <h4>Redes Sociais</h4>
+                <ul class="social-links">
+                    <li><a href="#">Instagram: @p3t_shopp</a></li>
+                    <li><a href="#">Facebook: @p3t_shopp</a></li>
+                    <li><a href="#">TikTok: @p3t_shopp</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-note">Patas e Companhia © 2026 - Venha celebrar conosco!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
