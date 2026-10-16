@@ -1,28 +1,22 @@
-# 🐾 Patas e Companhia
+# 🌐 Estudos de HTML, CSS e JavaScript
 
-Projeto educacional de um pet shop fictício, desenvolvido para praticar HTML, CSS e JavaScript em uma página completa e interativa.
+Repositório de estudos de desenvolvimento web, reunindo exercícios de aula e um projeto mais completo de front-end.
 
-## Sobre o projeto
+## Projeto em destaque: Patas e Companhia
 
-A aplicação apresenta uma loja de produtos para pets com catálogo, galeria, FAQ, formulário de cadastro e informações de contato.
+Na raiz do repositório está o **Patas e Companhia**, um pet shop fictício desenvolvido com HTML, CSS e JavaScript.
 
-## Funcionalidades
+### Funcionalidades
 
 - Catálogo de produtos
 - Carrossel de imagens
 - Perguntas frequentes (FAQ)
 - Formulário de cadastro
 - Navegação entre seções
-- Estilização responsiva em CSS
+- Estilização com CSS
 - Interações com JavaScript
 
-## Tecnologias
-
-- HTML5
-- CSS3
-- JavaScript
-
-## Estrutura principal
+### Arquivos principais
 
 ```text
 index.html   # Estrutura da página
@@ -30,13 +24,18 @@ style.css    # Estilos visuais
 script.js    # Interações
 ```
 
-## Como executar
+Para executar o projeto, basta abrir `index.html` em um navegador.
 
-1. Clone ou baixe este repositório.
-2. Abra o arquivo `index.html` no navegador.
+## Exercícios e aulas
 
-Não é necessário instalar dependências.
+A pasta `html/` reúne atividades e exercícios desenvolvidos ao longo dos estudos, organizados em diferentes tópicos e aulas, incluindo conteúdos como galeria, filtros, produtos, posicionamento e outros exercícios de HTML/CSS.
+
+## Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
 
 ## Objetivo
 
-Projeto criado para consolidar conhecimentos de desenvolvimento web front-end e organização de uma interface com múltiplas seções.
+Registrar a evolução dos estudos em desenvolvimento web e manter, no mesmo repositório, exercícios de aprendizado e um projeto de aplicação mais completa.
